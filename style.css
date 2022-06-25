@@ -1,0 +1,366 @@
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+    text-align: center;
+    background-color: #D198FB;
+    padding: 1rem 2rem;
+    width: 99.15%;
+}
+
+nav>a {
+    display: inline;
+    color:white;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    background-color:#C073F9;
+}
+
+nav>a:hover {
+    background-color: #F9739C;
+    color: white;
+    text-decoration: none;
+  }
+
+nav>a:link {
+    color:white;
+    text-decoration: none;
+}
+
+nav>a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #1CB0B0;
+    font-size: 1.8rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-width: 2px;
+    border-color:#1CB0B0;
+    border-style: solid;
+    box-shadow: 5px 5px #B3B4B2;
+}
+
+p {
+    color: #0A4242;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #1CB0B0;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color:#F9739C;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #1CB0B0; 
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-style: italic;
+    color:#F9739C;
+    display: block;
+}
+
+.offer {
+    /*inline-size: 40%;*/
+    overflow-wrap: break-word;
+}
+
+a:link {
+    font-weight: bold;
+    color:#C073F9;
+    text-decoration: none;
+}
+
+a:visited {
+    font-weight: bold;
+    color:#C073F9;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color:#F9739C;
+    text-decoration: underline;
+}
+
+a:active {
+    font-weight: bolder;
+    color: #70F802;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px;
+    line-height: 160%;
+  }
+
+.ContactForm{
+    color:#1CB0B0;
+    font-weight: bold;
+    line-height: 200%;
+    /*width: 40em;*/
+    margin-left: 4em;
+    margin-right: auto;
+    padding: 1em;
+  }
+
+input[type=text], input[type=tel], input[type=email]{
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #C073F9;
+    background-color: #F8F2FD;
+  }
+
+fieldset {
+    width: 40%;
+    border: 1px solid #C073F9;
+  }
+
+input[type=submit] {
+    background-color: #C073F9;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1em 1em 2em 1em;
+    padding: 1em;
+    border: 3px solid #F9739C;
+    border-radius: 1em;  
+  }
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #DAF7A6;
+    color: black;
+    text-align: center;
+    padding: 1.5em
+  }
+
+/*Below is images info*/
+
+.logo {
+    margin-bottom: 4em;
+    width: 75%;
+}
+
+[title="Bowl of ice cream"] {
+    width: 80%;
+    height: 80%;
+    border: 1em solid rgb(255,255,255,0.5);
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
+
+.iframemap  {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    }
+.iframemap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    }
+
+
+
+.dancing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+[title="Lots of ice cream flavours"] {
+    width: 80%;
+    height: 80%;
+    border: 1em solid rgb(255,255,255,0.5);
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
+
+[title="Ice cream cone"] {
+    width: 80%;
+    height: 80%;
+    border: 1em solid rgb(255,255,255,0.5);
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
+
+[title="Five ice cream cones"] {
+    width: 80%;
+    height: 80%;
+    border: 1em solid rgb(255,255,255,0.5);
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
+
+
+
+/*Below is backgrounds info*/
+
+.location {
+    background: rgb(203,231,231);
+background: linear-gradient(270deg, rgba(203,231,231,1) 0%, rgba(238,174,202,1) 50%, rgba(203,231,231,1) 100%);
+    background-size: cover;   
+    background-repeat: no-repeat;
+    padding: 1.5em;
+    width: 100%;
+    }
+
+.details {
+    background: rgb(203,231,231);
+    background: linear-gradient(180deg, rgba(203,231,231,1) 0%, rgba(238,174,202,1) 86%);
+    background-size: cover;   
+    background-repeat: no-repeat;
+    padding: 1.5em;
+    width: 100%;
+    }
+
+.index {
+    background: rgb(238,174,202);
+    background: linear-gradient(321deg, rgba(238,174,202,1) 0%, rgba(203,231,231,1) 50%, rgba(238,174,202,1) 100%);
+    background-size: cover;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    padding: 1.5em;
+    width: 100%;
+    }
+
+
+/*Below is responsive info*/
+
+
+@media only screen and (max-width: 450px) {
+    html {
+      font-size: 12px;
+    }
+  }
+
+@media only screen and (min-width: 760px) {
+    .details{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 2em;
+    }
+
+
+    .location{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    [title="Bowl of ice cream"] {
+        width: 80%;
+        height: 80%;
+        border: 1em solid rgb(255,255,255,0.5);
+        border-radius: 50px;
+        display: block;
+        grid-row: 2 / span 1;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .locationtext{
+        margin-left: 3em;
+        margin-top: 3em;
+    }
+
+    .iframemap {
+        grid-row: 1 / span 2;
+        grid-column: 2 / span 1;
+        margin-top: 3em;
+    }
+
+    .index{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2em;
+    }
+
+    .boast{
+        grid-column: 1 /span 3;
+        padding-left: 3rem;
+    }
+
+    .AboutUs{
+        grid-column: 2 / span 2;
+        padding-right: 3rem;
+    }
+
+    blockquote {
+        margin: 4em;
+        grid-column: 2 / span 4;
+        padding: 2rem;
+    }
+
+    .History{
+        padding-right: 3rem;
+    }
+
+    .Flavours{
+        padding-left: 3rem;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .LotsofFlavours{
+        grid-column-start: 3
+    }
+
+    .Flavours{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
+    }
+    
+    .Flavours2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        padding-top: 1em;
+        align-items: start;
+    }
+
+}
+
